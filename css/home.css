@@ -15,6 +15,7 @@
   background-size: cover;
   filter: grayscale(100%);
   z-index: -1;
+  box-shadow: inset 0px -40px 40px #000;
 }
 
 .profile__foto {

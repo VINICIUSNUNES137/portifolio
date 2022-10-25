@@ -38,20 +38,15 @@ section {
   height: 100vh;
 }
 
-.projetos {
-  background-color: lightseagreen;
-  width: 100%;
-}
-
-.contato {
-  background-color: lightgray;
-  width: 100%;
-}
-
 footer {
-  height: 100px;
+  height: 50px;
   width: 100%;
   background-color: #0005;
   grid-area: content;
   place-self: end center;
+  display: grid;
+  place-content: center;
+  border-top: 2px solid white;
+  font-size: .75rem;
+  font-style: italic;
 }
