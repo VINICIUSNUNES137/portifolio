@@ -52,16 +52,30 @@
 
 
 .skills__container{
-    background-color: tomato;
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
 }
 
+.skills__icon {
+    width: 150px;
+    height: 150px;
+    background-color: var(--icon-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
 
+.skills__icon i {
+    font-size: 3rem;
+}
 
-
-
+.skills__icon span {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
 
 
 
