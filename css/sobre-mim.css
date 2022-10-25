@@ -22,10 +22,51 @@
 
 .description {
     grid-area: description;
-    background-color: lightyellow;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.description__tittle{
+    font-size: 48px;
+    color: var(--primary-color);
+}
+
+.description__text {
+    font-size: 1.5rem;
+    width: 85%;
+    line-height: 150%;
 }
 
 .skills {
     grid-area: skills;
-    background-color: plum;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
+
+.skills__tittle {
+    font-size: 48px;
+    color: var(--primary-color);
+}
+
+
+.skills__container{
+    background-color: tomato;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
