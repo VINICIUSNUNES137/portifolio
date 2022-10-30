@@ -1,28 +1,26 @@
 @media (max-width: 640px) {
-  .section__tittle {
-    display: flex;
-    font-size: 6rem;
-    width: 90%;
-  }
-
   header {
-    width: 500px;
+    max-width: 400px;
+    width: 100%;
   }
 
   .home {
     position: relative;
-    max-width: 640px;
-    width: 100vw;
-    height: 80vh;
+    flex-direction: column;
   }
 
-  .home::before {
-    width: 100%;
-    height: 80vh;
+  .profile__text {
+    font-size: 2rem;
+  }
+
+  .section__tittle {
+    font-size: 5rem;
   }
 
   .sobre-mim {
-    height: 130vh;
+    height: 200vh;
+    display: flex;
+    align-items: center;
   }
 
   .skills__container {
@@ -30,7 +28,7 @@
   }
 
   .projetos {
-    height: 230vh;
+    height: 350vh;
     display: flex;
     align-items: center;
   }
@@ -41,7 +39,7 @@
   }
 
   .contatos {
-    height: 90vh;
+    height: 150vh;
   }
 
   .social-container {
