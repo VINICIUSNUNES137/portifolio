@@ -1,4 +1,8 @@
 @media (max-width: 640px) {
+  body {
+    width: 100vw;
+  }
+
   header {
     max-width: 400px;
     width: 100%;
@@ -7,6 +11,7 @@
   .home {
     position: relative;
     flex-direction: column;
+    width: 100vw;
   }
 
   .profile__text {
@@ -14,13 +19,22 @@
   }
 
   .section__tittle {
-    font-size: 5rem;
+    font-size: 6rem;
+  }
+
+  .description__tittle {
+    font-size: 4.5rem;
+  }
+
+  .skills__tittle {
+    font-size: 4.5rem;
   }
 
   .sobre-mim {
-    height: 200vh;
+    height: 140vh;
     display: flex;
     align-items: center;
+    gap: 124px;
   }
 
   .skills__container {
@@ -28,7 +42,7 @@
   }
 
   .projetos {
-    height: 350vh;
+    height: 220vh;
     display: flex;
     align-items: center;
   }
@@ -39,7 +53,7 @@
   }
 
   .contatos {
-    height: 150vh;
+    height: 80vh;
   }
 
   .social-container {
