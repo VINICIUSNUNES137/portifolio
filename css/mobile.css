@@ -1,0 +1,50 @@
+@media (max-width: 640px) {
+  .section__tittle {
+    display: flex;
+    font-size: 6rem;
+    width: 90%;
+  }
+
+  header {
+    width: 500px;
+  }
+
+  .home {
+    position: relative;
+    max-width: 640px;
+    width: 100vw;
+    height: 80vh;
+  }
+
+  .home::before {
+    width: 100%;
+    height: 80vh;
+  }
+
+  .sobre-mim {
+    height: 130vh;
+  }
+
+  .skills__container {
+    justify-content: center;
+  }
+
+  .projetos {
+    height: 230vh;
+    display: flex;
+    align-items: center;
+  }
+
+  h2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contatos {
+    height: 90vh;
+  }
+
+  .social-container {
+    flex-direction: column;
+  }
+}

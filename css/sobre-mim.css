@@ -1,77 +1,68 @@
 .sobre-mim {
-    max-width: 1200px;
-    width: 100%;
-    display: grid;
-    grid-template-areas: 
-    "tittle tittle" 
-    "description skills";
-    grid-template-rows: auto 1fr;
-    grid-template-columns: 1fr 1fr;
-    gap: 64px;
+  max-width: 1200px;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-areas:
+    'tittle tittle'
+    'description skills';
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
 }
-
 
 .description {
-    grid-area: description;
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
+  grid-area: description;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
-.description__tittle{
-    font-size: 48px;
-    color: var(--primary-color);
+.description__tittle {
+  font-size: 48px;
+  color: var(--primary-color);
 }
 
 .description__text {
-    font-size: 1.5rem;
-    width: 85%;
-    line-height: 150%;
+  font-size: 1.5rem;
+  width: 85%;
+  line-height: 150%;
 }
 
 .skills {
-    grid-area: skills;  
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
+  grid-area: skills;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
 .skills__tittle {
-    font-size: 48px;
-    color: var(--primary-color);
+  font-size: 48px;
+  color: var(--primary-color);
 }
 
-
-.skills__container{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
+.skills__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
 }
 
 .skills__icon {
-    width: 150px;
-    height: 150px;
-    background-color: var(--icon-color);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
+  width: 150px;
+  height: 150px;
+  background-color: var(--icon-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
 }
 
 .skills__icon i {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .skills__icon span {
-    font-weight: 700;
-    font-size: 1.5rem;
+  font-weight: 700;
+  font-size: 1.5rem;
 }
-
-
-
-
-
-
-
-
