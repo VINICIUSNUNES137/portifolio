@@ -1,3 +1,5 @@
+/* TABLET */
+
 @media (max-width: 960px) {
   nav {
     display: none;
@@ -27,7 +29,7 @@
   }
 
   .section__tittle {
-    font-size: 10rem;
+    font-size: 7rem;
   }
 
   .profile {
@@ -39,11 +41,11 @@
 
   .sobre-mim {
     width: 100%;
-    height: 150vh;
+    height: 140vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 48px;
+    padding-left: 28.5px;
   }
 
   .skills {
@@ -59,7 +61,8 @@
   }
 
   .projetos {
-    height: 450vh;
+    max-height: 300vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
   }

@@ -32,7 +32,7 @@
   }
 
   .sobre-mim {
-    height: 250vh;
+    height: 220vh;
     display: flex;
     align-items: center;
     gap: 124px;
@@ -45,7 +45,13 @@
   .projetos {
     height: 220vh;
     display: flex;
-    align-items: center;
+  }
+
+  .card-container{
+    display: flex;
+    justify-content: center;
+
+
   }
 
   h2 {
@@ -54,7 +60,7 @@
   }
 
   .contatos {
-    height: 100vh;
+    height: 120vh;
   }
 
   .social-container {
