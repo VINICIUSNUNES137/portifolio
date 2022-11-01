@@ -41,7 +41,7 @@
 
   .sobre-mim {
     width: 100%;
-    height: 140vh;
+    height: 150vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -61,7 +61,7 @@
   }
 
   .projetos {
-    max-height: 300vh;
+    max-height: 390vh;
     height: 100%;
     display: flex;
     flex-direction: column;
