@@ -12,7 +12,7 @@
     position: relative;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
+    height: 1000px;
   }
 
   .profile__text {
@@ -32,7 +32,7 @@
   }
 
   .sobre-mim {
-    height: 220vh;
+    height: 2100px;
     display: flex;
     align-items: center;
     gap: 124px;
@@ -43,7 +43,7 @@
   }
 
   .projetos {
-    height: 220vh;
+    height: 1800px;
     display: flex;
   }
 
@@ -51,7 +51,10 @@
     display: flex;
     justify-content: center;
 
+  }
 
+  .card-container img {
+    width: 350px;
   }
 
   h2 {
@@ -60,7 +63,7 @@
   }
 
   .contatos {
-    height: 120vh;
+    height: 900px;
   }
 
   .social-container {

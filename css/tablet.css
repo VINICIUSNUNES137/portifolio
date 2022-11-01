@@ -23,7 +23,7 @@
   .home {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 1000px;
     align-items: center;
     justify-content: center;
   }
@@ -41,7 +41,7 @@
 
   .sobre-mim {
     width: 100%;
-    height: 150vh;
+    height: 1400px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -61,7 +61,7 @@
   }
 
   .projetos {
-    max-height: 390vh;
+    max-height: 2800px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -69,15 +69,18 @@
   .card-container {
     flex-wrap: wrap;
     width: 85%;
+    display: flex;
+    justify-content: center;
+
   }
 
   .card-container img {
-    width: 85vw;
+    width: 600px;
   }
   .contatos {
     display: flex;
     flex-direction: column;
-    height: 110vh;
+    height: 800px;
     gap: 48px;
   }
 
