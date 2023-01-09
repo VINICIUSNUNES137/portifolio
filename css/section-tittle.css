@@ -1,8 +1,9 @@
 .section__tittle {
   grid-area: tittle;
-  font-size: 220px;
+  font-size: 150px;
   text-align: center;
-  background: linear-gradient(#444, #000);
+  background: linear-gradient(#fff1, #000);
+  /* background-color: aliceblue; */
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;

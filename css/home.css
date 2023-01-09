@@ -3,14 +3,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../img/background.png);
+  background-image: url(https://i.pinimg.com/originals/66/29/ac/6629ac69eee96adbe0880b4f06afdc26.gif);
   background-repeat: no-repeat;
   background-size: cover;
+  /* filter: brightness(50%); */
   box-shadow: inset 0px -40px 40px #000;
 }
 
+.home::after {
+  background-color: #fff;
+}
+
 .profile__foto {
-  filter: grayscale();
+  filter: brightness(70%);
+  border: 5px solid var(--primary-color);
+  border-radius: 50%;
 }
 
 .profile {

@@ -28,7 +28,7 @@
   </head>
   <body>
     <header>
-      <div class="logo">viniciusNunes</div>
+      <div class="logo">viniciusnunes</div>
       <a href="#">
         <i class="fas fa-bars navigation-icon"></i>
       </a>
@@ -38,7 +38,7 @@
             <a href="#home">Home</a>
           </li>
           <li>
-            <a href="#sobre-mim">Sobre mim</a>
+            <a href="#sobre-mim">Sobre Mim</a>
           </li>
 
           <li>
@@ -51,20 +51,27 @@
       </nav>
     </header>
     <main>
+      <a href="#" class="voltar">
+        <i class="fas fa-chevron-circle-up"></i>
+      </a>
       <section class="home" id="home">
         <div class="profile">
-          <img class="profile__foto" src="./img/foto.png" alt="foto" />
+          <img
+            class="profile__foto"
+            src="https://avatars.githubusercontent.com/u/90266473?s=400&u=e1ac2f76e01bdbe5116e2833627c0403a7822c5d&v=4"
+            alt="foto"
+          />
           <div>
             <span class="profile__text">Olá, meu nome é</span>
-            <h1 class="profile__name">Vinicius Nunes</h1>
+            <h1 class="profile__name">VINICIUS NUNES</h1>
             <span class="profile__text">e sou desenvolvedor Frontend</span>
           </div>
         </div>
       </section>
       <section class="sobre-mim" id="sobre-mim">
-        <h2 class="section__tittle">Sobre Mim</h2>
+        <h2 class="section__tittle">SOBRE MIM</h2>
         <div class="description">
-          <h3 class="description__tittle">Quem sou?</h3>
+          <h3 class="description__tittle">QUEM SOU?</h3>
           <p class="description__text">
             Sou iniciante na área de criação e manutenção de sites, tenho
             conhecimento em prototipação e designer sempre pensando na
@@ -74,7 +81,7 @@
           </p>
         </div>
         <div class="skills">
-          <h3 class="skills__tittle">Skills:</h3>
+          <h3 class="skills__tittle">SKILLS</h3>
           <ul class="skills__container">
             <li class="skills__icon">
               <i class="fab fa-html5"></i>
@@ -104,7 +111,7 @@
         </div>
       </section>
       <section class="projetos" id="projetos">
-        <h2 class="section__tittle">Projetos:</h2>
+        <h2 class="section__tittle">PROJETOS</h2>
         <div class="card-container">
           <a
             class="card"
@@ -136,10 +143,10 @@
           </a>
           <a
             class="card"
-            href="https://github.com/VINICIUSNUNES137/liniker-page"
+            href="https://github.com/VINICIUSNUNES137/sistema-agendamento"
             target="_blank"
           >
-            <img src="./img/card-liniker.png" alt="Pikachu" />
+            <img src="./img/card-sistema.png" alt="Pikachu" />
           </a>
           <a
             class="card"
@@ -151,32 +158,23 @@
         </div>
       </section>
       <section class="contatos" id="contato">
-        <h2 class="section__tittle">Contato</h2>
-
-        <ul class="contato-container">
-          <li>
-            <h3>Contato</h3>
-          </li>
-          <li>
-            <div class="contato-item">
-              <i class="fas fa-phone contato-item__icon"></i>
-              <span class="contato-iten__text">(11) 4321-4633</span>
-            </div>
-          </li>
-          <li>
-            <div class="contato-item contato-item__icon">
-              <i class="fas fa-envelope"></i>
-              <span class="contato-iten__text">viniciusnunes137@gmail.com</span>
-            </div>
-          </li>
-          <li>
-            <div class="contato-item contato-item__icon">
-              <i class="fab fa-whatsapp"></i>
-              <span class="contato-iten__text">(11) 9 5424-4032</span>
-            </div>
-          </li>
+        <h2 class="section__tittle">CONTATOS</h2>   
         </ul>
         <ul class="social-container">
+          <li class="social">
+            <a
+              href="https:\\www.linkedin.com/in/vinicius-nunes-300552210"
+              target="_blank"
+              ><i class="far fa-envelope"></i
+            ></a>
+          </li>
+          <li class="social">
+            <a
+              href="https:\\www.linkedin.com/in/vinicius-nunes-300552210"
+              target="_blank"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+          </li>
           <li class="social">
             <a
               href="https:\\www.linkedin.com/in/vinicius-nunes-300552210"
@@ -195,27 +193,17 @@
             ></a>
           </li>
         </ul>
-        <ul class="link-container">
-          <li>
-            <h3>Links</h3>
-          </li>
-          <li>
-            <a href="#home">Início</a>
-          </li>
-          <li>
-            <a href="#sobre-mim">Sobre mim</a>
-          </li>
-          <li>
-            <a href="#projetos">Projetos</a>
-          </li>
-          <li>
-            <a href="#contato">Contato</a>
-          </li>
-        </ul>
       </section>
     </main>
     <footer>
-      Todos os direitos reservados 2022 | Desenvolvido por Vinicius Nunes
+      <span class="copy">
+        Todos os direitos reservados 2022 | Desenvolvido por
+      </span>
+      <a href="https://github.com/VINICIUSNUNES137" target="_blank"
+        ><span class="copy-name">Vinicius Nunes </span></a
+      >
     </footer>
+    <script src="./mobile-navbar.js"></script>
+
   </body>
 </html>

@@ -3,6 +3,14 @@
     width: 100%;
   }
 
+  footer {
+    font-size: 0.75rem;
+  }
+
+  .copy-name {
+    font-size: 0.75rem;
+  }
+
   header {
     max-width: 400px;
     width: 100%;
@@ -19,23 +27,36 @@
     font-size: 2rem;
   }
 
+  .profile__foto {
+    width: 70vw;
+  }
+
   .section__tittle {
     font-size: 4.5rem;
   }
 
   .description__tittle {
-    font-size: 3.5rem;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .description__text {
+    text-align: justify;
+    width: 80vw;
   }
 
   .skills__tittle {
-    font-size: 3.5rem;
+    font-size: 3rem;
+    text-align: center;
   }
 
   .sobre-mim {
-    height: 2100px;
+    height: 2200px;
     display: flex;
+    width: 100vw;
     align-items: center;
-    gap: 124px;
+    gap: 100px;
+    padding: 0;
   }
 
   .skills__container {
@@ -47,10 +68,9 @@
     display: flex;
   }
 
-  .card-container{
+  .card-container {
     display: flex;
     justify-content: center;
-
   }
 
   .card-container img {
@@ -63,7 +83,7 @@
   }
 
   .contatos {
-    height: 900px;
+    height: 800px;
   }
 
   .social-container {
